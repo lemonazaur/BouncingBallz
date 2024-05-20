@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bouncing Ballz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+  <button onclick="setAllGrav(1.62)">MOON</button>
+  <button onclick="setAllGrav(3.71)">MARS</button>
+  <button onclick="setAllGrav(9.8)">EARTH</button>
+  <button onclick="setAllGrav(24.8)">JUPITER</button>
+  <button onclick="setAllGrav(274)">SUN</button>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<audio id="bounceSound" src="bounce.mp3" preload="auto"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

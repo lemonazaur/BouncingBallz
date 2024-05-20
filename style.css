@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: #f5c6b4;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    display: block;
+    background: #f0f0f0;
+    border: 1px solid coral;
+    flex-grow: 1;
+    width: 100%;
+}
+
+button {
+    padding: 4px 8px;
+    background-color: white;
+    color: coral;
+    border: 2px solid coral;
+    border-radius: 4px;
+    height: 50px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: coral;
+    color: white;
+}
