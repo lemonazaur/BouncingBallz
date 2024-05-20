@@ -9,6 +9,7 @@ Bouncing Ballz is a micro physics simulator built using HTML5 Canvas and TypeScr
 - Adjustable gravity settings to simulate different planets.
 - Randomised ball creation (color and size)
 - Responsive page and UI.
+- Limit on 15 ballz for optimization.
 
 ## Two options to start
 1. Go to my hosted page [here](https://lemonazaur.github.io/BouncingBallz/)
