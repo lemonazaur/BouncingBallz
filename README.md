@@ -11,7 +11,7 @@ Bouncing Ballz is a micro physics simulator built using HTML5 Canvas and TypeScr
 - Responsive page and UI.
 
 ## Two options to start
-1. Go to my hosted page here
+1. Go to my hosted page [here](https://lemonazaur.github.io/BouncingBallz/)
 2. Run it locally on your machine. Follow the instructions below.
 
 ## Setup and Execution Instructions
